@@ -1,4 +1,5 @@
 h1{
+    text-shadow: 0pt;
     color: red;
     background-color: black;
 }
@@ -42,3 +43,51 @@ p{
     background-color: black;
     color: red;
 }
+#logo{
+    text-align: center;
+margin: auto;
+}
+#lyrics{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    letter-spacing: 1em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 0;
+}
+.audio-player {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .audio-player audio {
+    width: 100%;
+  }
+  
+  .audio-player audio::-webkit-media-controls-panel {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .audio-player audio::-webkit-media-controls-play-button,
+  .audio-player audio::-webkit-media-controls-pause-button {
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+  }
+  
+  .audio-player audio::-webkit-media-controls-current-time-display,
+  .audio-player audio::-webkit-media-controls-time-remaining-display {
+    color: #333;
+  }
